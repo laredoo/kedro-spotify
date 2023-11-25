@@ -1,0 +1,16 @@
+songs:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/top50.csv
+
+songs_first_processed:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/songs_first_processed.pq
+
+model_input_table:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/model_input_table.pq
+
+regressor:
+  type: pickle.PickleDataset
+  filepath: data/06_models/regressor.pickle
+  versioned: true

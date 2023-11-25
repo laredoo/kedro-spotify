@@ -1,0 +1,1 @@
+{"songs": {"rows": 3589, "columns": 21, "file_size": 506583}, "songs_first_processed": {"rows": 3583, "columns": 17, "file_size": 161060}, "model_input_table": {"rows": 3583, "columns": 1270, "file_size": 1036030}, "X_train": {"rows": 2866, "columns": 1269}, "X_test": {"rows": 717, "columns": 1269}}
